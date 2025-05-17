@@ -57,7 +57,6 @@ def handle_message(event):
         )
         return
 
-    # 如果使用者輸入「幸運小語」或「正能量語錄」等
     if user_text.strip() in ["幸運小語"]:
         prompt = "請幫我隨機生成一個正面、鼓勵人心的幸運小語。"
         try:
